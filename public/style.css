@@ -1,0 +1,11 @@
+.row {
+  flex-direction: row;
+  display: flex;
+  padding-right:15px;
+  padding-bottom: 4px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row
+}
