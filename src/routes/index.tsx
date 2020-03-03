@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import { AllParties } from "../components/AllParties"
 import { Header } from "../components/Header"
-import { SingleParty } from "../components/SingleParty"
+import SingleParty from "../components/SingleParty"
 import { HeaderTabs } from "../components/HeaderTabs"
 
 

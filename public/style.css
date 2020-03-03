@@ -23,7 +23,10 @@
   color: white;
 
 }
-
+.centerNotWhite {
+  display:flex;
+  justify-content: center;
+}
 .header {
   border: 5px solid red;
   background-color: black
@@ -53,4 +56,14 @@
 
 .paddingTop{
   padding-top: 40px;
+}
+
+.paddingRight1{
+  padding-right: 20px
+}
+
+.openDeals {
+text-decoration: underline;
+padding-left:25px;
+color: red
 }
