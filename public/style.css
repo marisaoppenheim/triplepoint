@@ -9,3 +9,37 @@
   display: flex;
   flex-direction: row
 }
+
+.paddingRight {
+  display:flex;
+  justify-content: space-around;
+  padding-top:30px;
+
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+  color: white;
+
+}
+
+.header {
+  border: 5px solid red;
+  background-color: black
+}
+
+.flex{
+  display: flex
+}
+
+.underline{
+  border-bottom: 4px solid black;
+  text-decoration: none;
+  color: red
+}
+
+.aNoStyle {
+  text-decoration: none;
+  color: black
+}

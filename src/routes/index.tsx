@@ -5,16 +5,18 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Main } from "../components/Main"
+import { AllParties } from "../components/AllParties"
+import { Header } from "../components/Header"
 
 export const Routers = () => {
   return (
     <Router>
+      <Header />
       <Switch>
-        <Route path="/">
-          <Main />
+        <Route path="/allParties">
+          <AllParties />
         </Route>
       </Switch>
-    </Router>
+    </Router >
   )
 }

@@ -4,7 +4,7 @@ import { Party } from "../types/Party"
 
 
 
-export const Main = () => {
+export const AllParties = () => {
   // this is operating under the assumption that we have brought in all existing parties from backend
 
   const allParties = [{
