@@ -6,4 +6,10 @@ export interface Party {
   name: string;
   deals: Deal[];
   bids: Bid[]
+  city: string;
+  state: string;
+  img: string;
+  aum: number;
+  ceo: string;
+  industry: string;
 }

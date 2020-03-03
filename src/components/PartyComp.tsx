@@ -7,10 +7,15 @@ interface PartyProps {
 
 export const PartyComp = ({ party }: PartyProps) => {
   return (
-    <div className="row">
-      <a>
-        {party.name}
+    <h2 className="row">
+      <a href={`/allParties/${party.id}`} className="aNoStyle">
+        <div className="column">
+          {party.name}
+          <div className="paddingTop">
+            <img src={party.img} width="300" height="350" />
+          </div>
+        </div>
       </a>
-    </div>
+    </h2>
   )
 }

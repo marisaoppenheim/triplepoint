@@ -4,7 +4,7 @@ import { Party } from "../types/Party"
 
 
 
-export const AllParties = () => {
+export const SingleParty = () => {
   // this is operating under the assumption that we have brought in all existing parties from backend
 
   const allParties = [{
@@ -33,9 +33,7 @@ export const AllParties = () => {
   ]
   return (
     <div>
-      <ul className="flex">
-        {allParties.map((party, index) => <PartyComp party={party} />)}
-      </ul>
+      <h2>Trying</h2>
     </div>
   )
 }

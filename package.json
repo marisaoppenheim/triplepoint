@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/react-native": "^0.61.17",
     "@types/react-redux": "^7.1.7",
+    "@types/react-router": "^5.1.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-native": "^0.61.5",
