@@ -9,7 +9,7 @@ interface SingleDealProps {
 export function SingleDeal({ deal, index }: SingleDealProps) {
   const id = deal.id
   return (
-    <a href={`/deals/${id}`} className="aNoStyle">
+    <a href={`/deals/${id}`} className="columnNoCenter">
       {`${index + 1}: ${deal.name}`}
     </a>
   )

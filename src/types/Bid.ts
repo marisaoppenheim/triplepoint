@@ -1,7 +1,7 @@
 export default interface Bid {
   partyId: string;
   dealId: string;
-  offerPrice: string;
+  offerPrice: number;
   status: BidStatus;
   id: string;
 }

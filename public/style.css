@@ -67,3 +67,9 @@ text-decoration: underline;
 padding-left:25px;
 color: red
 }
+
+.columnNoCenter{
+    display: flex;
+   flex-direction: column;
+   padding-bottom: 10px;
+  }
